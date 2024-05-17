@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    background-color: black;
+}
+
+#root {
+    padding: 3rem;
+    text-align: center
+}
+
+#root h1 {
+    font-family: 'Press Start 2P', Consolas, monospace;
+    color: white;
+}
+
+#root canvas {
+    display: block;
+    margin: 0 auto;
+}
+
+.result-table {
+    display: none;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+
+    translate: -50% -50%;
+
+    border-collapse: collapse;
+    border: 1px solid purple;
+    background-color: aliceblue;
+}
+
+.result-table td, th {
+    font-size: 2rem;
+    padding: 1rem 1.5rem;
+}
+
+.result-table.show {
+    display: block;
+}
+
+.result-table tr {
+    border-bottom: 1px solid purple;
+}
+
